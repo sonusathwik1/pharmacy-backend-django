@@ -1,14 +1,44 @@
-# Python cache files
+# ===============================
+# Python
+# ===============================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Django local database
+# ===============================
+# Django
+# ===============================
 db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
 
-# Virtual environment
+# Django secrets / env
+.env
+
+# ===============================
+# Virtual Environment
+# ===============================
 venv/
+ENV/
+env/
 
-# VS Code
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Test / Coverage
+# ===============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ===============================
+# Editor / OS
+# ===============================
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
